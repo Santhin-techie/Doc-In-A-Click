@@ -1,0 +1,60 @@
+
+body{
+    background-image: url(../img1/bg21.jpg);
+    margin: 2%;
+    background-color: #070707;
+}
+.container{
+    width: 45%;
+    background-color:black;
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 8px;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 3px 5px 0 rgba(240, 240, 240, 0.3);
+    animation: transitionIn-Y-over 0.5s;
+
+}
+td{
+    text-align: center;
+
+}
+.header-text{
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+}
+
+.sub-text{
+    font-size: 15px;
+    color: rgb(245, 235, 235);
+}
+
+.form-label{
+    color: white;
+    text-align: left;
+    font-size: 18px;
+}
+.label-td{
+    text-align: left;
+    padding-top: 10px;
+}
+
+.hover-link1{
+    color:white;
+    font-weight: bold;
+}
+
+
+.hover-link1:hover{
+    opacity: 0.8;
+    transition: 0.5s;
+
+
+}.login-btn{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+}

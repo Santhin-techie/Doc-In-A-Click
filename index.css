@@ -1,0 +1,111 @@
+
+
+body{
+   background-image: url(../img1/23.avif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    height: 100%;
+}
+.full-height {
+    display: flex;
+    justify-content: space-between; /* Push items to left and right */
+    align-items: center;
+    padding: 10px 20px; /* Add spacing around */
+    position: fixed; /* Make it stay at the top */
+    top: 0; /* Align at the top */
+    width: 100%; /* Full width */
+    background-color: #76858d; /* Optional background */
+    z-index: 90; /* Ensure it stays on top */
+    box-shadow: 0px 2px 5px rgba(236, 233, 233, 0.1); /* Optional shadow */
+}
+
+/* Title styling */
+.title {
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    padding-left: 45px; /* Increase space to the left to avoid overlap */
+    margin-top: 12px; 
+}
+
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+
+
+table{
+    width: 100%;
+    padding-top: 5px;
+    
+}
+.heading-text{
+    color: rgb(10, 4, 4);
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 63px;
+    margin-top: 15%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.sub-text2{
+    color: rgb(10, 7, 7);
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0;
+}
+
+
+.register-btn{
+    background-color: rgba(4, 4, 5, 0.589);
+    color: #060607;
+}
+
+
+.logo {
+    position: absolute;
+    top: 0px; /* Position the logo 20px from the top */
+    left: 2px; /* Position the logo 20px from the left */
+    width: 60px; /* Adjust the size of your logo */
+    height: auto;
+}
+
+.edoc-logo-sub{
+    color: rgba(32, 26, 26, 0.904);
+    font-size: 12px;
+
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px; /* Space between Login and Register */
+}
+
+/* Navigation link styling */
+.nav-link {
+    text-decoration: none;
+    font-size: 16px;
+    color: #f0e6e6; /* Black text */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #18191a;
+}
+.footer-hashen{
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    font-size: 20px;
+    animation: transitionIn-Y-over 0.5s;
+}

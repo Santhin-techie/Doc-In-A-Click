@@ -1,0 +1,142 @@
+    body{
+    background-image: url(../img1/b8.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+
+    .sidebar {
+        background: rgb(20, 18, 18); 
+        position:after absolute; /* Use position to align the sidebar */
+        width: 300px; /* Adjust the width of the sidebar */
+        height: 100%; /* Adjust height if necessary */
+}
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+
+
+}
+.menu{
+    border-right: 1.5px solid rgb(12, 8, 8);
+    width: 24%;
+    height: 100%;
+    box-shadow: 0 0px 0px 2px rgb(17, 17, 17);
+}
+.dash-body{
+    width: 76%;
+    height: 100%;
+}
+
+.menu-container{
+    width: 100%;
+    border-spacing: 0;
+    
+}
+
+.profile-title{
+    font-weight: 500;
+    color: #050608;
+    font-size: 22px;
+    margin: 0;
+    text-align: left;
+    padding-left: 8%;
+}
+
+.profile-subtitle{
+    font-weight: 300;
+    color: #0c0808;
+    font-size: 15px;
+    margin: 0;
+    text-align: left;
+    padding-left: 8%;
+}
+
+.logout-btn{
+    margin-top: 20px;
+    width: 85%;
+}
+
+.profile-container{
+    border: 1.5px solid rgb(12, 10, 10);
+    border-radius: 6px;
+    padding-top: 12%;
+    padding-bottom: 12%;
+    box-shadow: 0 0 3px rgba(223, 215, 215, 0.829);
+    text-align: center;
+    
+}
+
+
+.menu-items1{
+    font-weight: 500;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    color: #161c2def;
+}
+
+.menu-td1{
+    padding-right: 10px;
+}
+
+
+.menu-button:hover{
+    cursor: pointer;
+    background-color:#d5d6dbea;
+}
+
+.menu-active{
+    background-color:#f5ededf1;
+}
+
+
+.header-container{
+    margin-top: 25px;
+    margin-bottom: 5%;
+    background-image: url(../img1/bg01.jpg);
+    
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 300px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px 0 rgba(233, 220, 220, 0.774);
+    border-spacing: 0;
+    
+}
+
+.header-items{
+    background: rgba(26, 26, 26, 0.548);
+    border-radius: 10px;
+    border-spacing: 0;
+}
+
+#header-heading{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgba(224, 210, 210, 0.938);
+}
+
+#header-sub-heading{
+    font-size: 17px;
+    font-weight: 400;
+    color: rgba(240, 236, 236, 0.904)
+    ;
+}
+
+.header-search{
+    display: flex;
+    justify-content: center;
+
+    
+}
+.header-searchbar{
+    width: 40%;
+    background-color: rgba(228, 219, 219, 0.836);
+    border: 0.5px solid rgba(218, 207, 207, 0.884);
+    
+    
+}
